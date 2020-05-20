@@ -32,6 +32,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.vy = -100
 })
 
+
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, 
 function (sprite: Sprite, otherSprite: Sprite) {
     game.over()
