@@ -160,13 +160,26 @@ game.onUpdateInterval(1000, function () {
         . . . . . . . . . . . . . . . .
         . . . . . . . . . . . . . . . .
         . . . . . . . . . . . . . . . .
-        c c c c c c c c c c 4 4 c c c c
-        c c c c c c c c c c 4 4 c c c c
-        c c c c c c c c c 4 4 c 4 c c c
-        c c c c c c c c c 4 c c 4 4 4 c
-        c 4 4 4 4 4 4 4 4 c c c c c 4 4
-        c c c c c c c c c c c c c c c 4
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
         c c c c c c c c c c c c c c c c
+        c 9 c c c c c c c c c c c c c c
+        c 9 9 9 c c c 9 9 c c c c c c c
+        c c c 9 9 9 9 c 9 9 9 c c 9 9 9
+        c c c c c c c c c c 9 9 9 9 9 c
         c c c c c c c c c c c c c c c c
         c c c c c c c c c c c c c c c c
         c c c c c c c c c c c c c c c c
@@ -232,19 +245,6 @@ game.onUpdateInterval(1000, function () {
         c c c c c c c c c c c c c c c c
         c c c c c c c c c c c c c c c c
         c c c c c c c c c c c c c c c c
-        c c c c c c c c c c c c c c c c
-        c c c c c c c c c c c c c c c c
-        c c c c c c c c c c c c c c c c
-        c c c c c c c c c c c c c c c c
-        c c c c c c c c c c c c c c c c
-        c c c c c c c c c c c c c c c c
-        c c c c c c c c c c c c c c c c
-        c c c c c c c c c c c c c c c c
-        c c c c c c c c c c c c c c c c
-        c c c c c c c c c c c c c c c c
-        c c c c c c c c c c c c c c c c
-        c c c c c c c c c c c c c c c c
-        c c c c c c c c c c c c c c c c
-    `, -200, 0)
+    `, -100, 0)
     projectile.y= Math.randomRange(50, 70)
 })
